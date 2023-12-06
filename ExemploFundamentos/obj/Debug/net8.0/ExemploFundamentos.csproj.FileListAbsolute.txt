@@ -12,3 +12,4 @@ C:\Users\joao.gomes\Source\Repos\BootCamp - DIO\ExemploFundamentos\obj\Debug\net
 C:\Users\joao.gomes\Source\Repos\BootCamp - DIO\ExemploFundamentos\obj\Debug\net8.0\ExemploFundamentos.pdb
 C:\Users\joao.gomes\Source\Repos\BootCamp - DIO\ExemploFundamentos\obj\Debug\net8.0\ExemploFundamentos.genruntimeconfig.cache
 C:\Users\joao.gomes\Source\Repos\BootCamp - DIO\ExemploFundamentos\obj\Debug\net8.0\ref\ExemploFundamentos.dll
+C:\Users\joao.gomes\Source\Repos\BootCamp - DIO\ExemploFundamentos\obj\Debug\net8.0\ExemploFundamentos.sourcelink.json
