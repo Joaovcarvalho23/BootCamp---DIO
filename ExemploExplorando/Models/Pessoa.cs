@@ -13,7 +13,7 @@ namespace ExemploExplorando.Models
 
         public string? Nome
         { 
-            get => _nome.ToUpper(); //CONVERTENDO PARA BODY EXPRESSIONS
+            get => _nome; //CONVERTENDO PARA BODY EXPRESSIONS
             
             set
             {
@@ -40,11 +40,14 @@ namespace ExemploExplorando.Models
         }
 
 
+        public string? Sobrenome { get; set; }
+
+        public string NomeCompleto => $"{Nome} {Sobrenome}";
 
 
         public void Apresentar()
         {
-            Console.WriteLine($"Nome: {Nome}, Idade: {Idade}");
+            Console.WriteLine($"Nome: {NomeCompleto}, Idade: {Idade}");
         }
     }
 }
