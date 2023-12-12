@@ -12,10 +12,7 @@ namespace ExemploExplorando.Models
 
         public string? Nome
         { 
-            get
-            {
-                return _nome.ToUpper();
-            }
+            get => _nome.ToUpper(); //CONVERTENDO PARA BODY EXPRESSIONS
             
             set
             {
