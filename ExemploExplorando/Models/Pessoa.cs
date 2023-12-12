@@ -9,6 +9,18 @@ namespace ExemploExplorando.Models
     {
         private string? _nome;
         private int _idade;
+
+
+        public Pessoa()
+        {
+            
+        }
+
+        public Pessoa(string nome, string sobrenome)
+        {
+            Nome = nome;
+            Sobrenome = sobrenome;
+        }
         
 
         public string? Nome
