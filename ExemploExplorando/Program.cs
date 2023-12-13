@@ -1,8 +1,13 @@
 ﻿using ExemploExplorando.Models;
 using System.Globalization;
 
+string dataString = "2023-12-16 18:00";
 
-DateTime data = DateTime.Parse("15/12/2023 18:30");
+DateTime.TryParseExact(dataString, "yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime data);
+/*O TryParseExact vai tentar converter  a representação de data "dataString", que pode não ser uma data válida, para um tipo DateTime, que é uma data válida. Ele vai tentar ler a data da forma que foi
+passada anteriormente. Se invertermos a ordem, ele não vai conseguir ler. InvariantCulture independe de cultura, pois já temos um formato previamente. O mesmo vale para o DateTimeStyles.
+Daí, se conseguir converter, jogamos o resultado a uma variável 'data'*/
+
 Console.WriteLine(data);
 
 
