@@ -1,8 +1,23 @@
 ﻿using ExemploExplorando.Models;
+using System.Globalization;
+
+CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
 
 decimal valorMonetario = 15342.32M;
 
 Console.WriteLine($"{valorMonetario:C}");
+
+
+
+
+
+
+
+
+
+
+
+
 
 // // Pessoa p1 = new Pessoa();
 // // p1.Nome = "João Victor";
