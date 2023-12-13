@@ -2,8 +2,8 @@
 using System.Globalization;
 
 
-DateTime data = DateTime.Now;
-Console.WriteLine(data.ToString("dd/MM/yyyy HH:mm"));
+DateTime data = DateTime.Parse("15/12/2023 18:30");
+Console.WriteLine(data);
 
 
 
