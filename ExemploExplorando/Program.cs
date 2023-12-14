@@ -24,6 +24,10 @@ catch (Exception erro)
 {
     Console.WriteLine($"\nOcorreu um erro na leitura do arquivo. Exceção genérica. Mensagem do erro: {erro.Message}");
 }
+finally
+{
+    Console.WriteLine("Você chegou até aqui!!");
+}
 
 
 
