@@ -5,15 +5,36 @@ Dictionary<string, string> estados = new Dictionary<string, string>();
 
 estados.Add("SP", "São Paulo");
 estados.Add("PE", "Pernambuco");
+estados.Add("BA", "Bahia");
 estados.Add("MG", "Minas Gerais");
+
+Console.WriteLine(estados["MG"]);
+Console.WriteLine("\n");
 
 foreach (var item in estados)
 {
     Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
 }
 
+Console.WriteLine("-------------------");
 
+estados.Remove("BA");
+estados["SP"] = "São Paulo - valor alterado";
 
+foreach(var item in estados)
+{
+    Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+}
+
+string chave = "BA";
+Console.WriteLine($"\nVerificando o elemento: {chave}\n");
+
+if (estados.ContainsKey(chave))
+{
+    Console.WriteLine($"Valor existnete: {chave}");
+} else{
+    Console.WriteLine($"Valor não existe. É seguro adicionar a chave: {chave}");
+}
 
 
 
