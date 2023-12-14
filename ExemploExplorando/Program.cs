@@ -2,12 +2,20 @@
 using System.Globalization;
 
 
-string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
-
-foreach(string linha in linhas)
+try
 {
-    Console.WriteLine(linha);
+    string[] linhas = File.ReadAllLines("Arquivos/arquivo_Leitura.txt");
+
+    foreach(string linha in linhas)
+    {
+        Console.WriteLine(linha);
+    }
 }
+catch (Exception erro)
+{
+    Console.WriteLine($"\nOcorreu uma exceção genérica. Mensagem da exceção: {erro.Message}");
+}
+
 
 
 
