@@ -4,23 +4,26 @@ using System.Globalization;
 
 try
 {
-    string[] linhas = File.ReadAllLines("Arquivos/arquivo_Leitura.txt");
+    string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
 
     foreach(string linha in linhas)
     {
         Console.WriteLine(linha);
     }
 }
-catch (Exception erro)
+catch (FileNotFoundException erro)
 {
-    Console.WriteLine($"\nOcorreu uma exceção genérica. Mensagem da exceção: {erro.Message}");
+    Console.WriteLine($"\nOcorreu um erro na leitura do arquivo. Arquivo não encontrado. Mensagem do erro: {erro.Message}");
 }
 
-
-
-
-
-
+catch (DirectoryNotFoundException erro)
+{
+    Console.WriteLine($"\nOcorreu um erro na leitura do arquivo. Diretório não encontrado. Mensagem do erro: {erro.Message}");
+}
+catch (Exception erro)
+{
+    Console.WriteLine($"\nOcorreu um erro na leitura do arquivo. Exceção genérica. Mensagem do erro: {erro.Message}");
+}
 
 
 
