@@ -2,32 +2,56 @@
 using System.Globalization;
 
 
-try
-{
-    string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
+new ExemploExecao().Metodo1();
 
-    foreach(string linha in linhas)
-    {
-        Console.WriteLine(linha);
-    }
-}
-catch (FileNotFoundException erro)
-{
-    Console.WriteLine($"\nOcorreu um erro na leitura do arquivo. Arquivo não encontrado. Mensagem do erro: {erro.Message}");
-}
 
-catch (DirectoryNotFoundException erro)
-{
-    Console.WriteLine($"\nOcorreu um erro na leitura do arquivo. Diretório não encontrado. Mensagem do erro: {erro.Message}");
-}
-catch (Exception erro)
-{
-    Console.WriteLine($"\nOcorreu um erro na leitura do arquivo. Exceção genérica. Mensagem do erro: {erro.Message}");
-}
-finally
-{
-    Console.WriteLine("Você chegou até aqui!!");
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// try
+// {
+//     string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
+
+//     foreach(string linha in linhas)
+//     {
+//         Console.WriteLine(linha);
+//     }
+// }
+// catch (FileNotFoundException erro)
+// {
+//     Console.WriteLine($"\nOcorreu um erro na leitura do arquivo. Arquivo não encontrado. Mensagem do erro: {erro.Message}");
+// }
+
+// catch (DirectoryNotFoundException erro)
+// {
+//     Console.WriteLine($"\nOcorreu um erro na leitura do arquivo. Diretório não encontrado. Mensagem do erro: {erro.Message}");
+// }
+// catch (Exception erro)
+// {
+//     Console.WriteLine($"\nOcorreu um erro na leitura do arquivo. Exceção genérica. Mensagem do erro: {erro.Message}");
+// }
+// finally
+// {
+//     Console.WriteLine("Você chegou até aqui!!");
+// }
 
 
 
