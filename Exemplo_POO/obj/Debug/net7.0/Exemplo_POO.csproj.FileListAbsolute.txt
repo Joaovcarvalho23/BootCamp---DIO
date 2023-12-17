@@ -1,0 +1,14 @@
+C:\Users\joaov\Desktop\BootCamp---DIO\Exemplo_POO\bin\Debug\net7.0\Exemplo_POO.exe
+C:\Users\joaov\Desktop\BootCamp---DIO\Exemplo_POO\bin\Debug\net7.0\Exemplo_POO.deps.json
+C:\Users\joaov\Desktop\BootCamp---DIO\Exemplo_POO\bin\Debug\net7.0\Exemplo_POO.runtimeconfig.json
+C:\Users\joaov\Desktop\BootCamp---DIO\Exemplo_POO\bin\Debug\net7.0\Exemplo_POO.dll
+C:\Users\joaov\Desktop\BootCamp---DIO\Exemplo_POO\bin\Debug\net7.0\Exemplo_POO.pdb
+C:\Users\joaov\Desktop\BootCamp---DIO\Exemplo_POO\obj\Debug\net7.0\Exemplo_POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaov\Desktop\BootCamp---DIO\Exemplo_POO\obj\Debug\net7.0\Exemplo_POO.AssemblyInfoInputs.cache
+C:\Users\joaov\Desktop\BootCamp---DIO\Exemplo_POO\obj\Debug\net7.0\Exemplo_POO.AssemblyInfo.cs
+C:\Users\joaov\Desktop\BootCamp---DIO\Exemplo_POO\obj\Debug\net7.0\Exemplo_POO.csproj.CoreCompileInputs.cache
+C:\Users\joaov\Desktop\BootCamp---DIO\Exemplo_POO\obj\Debug\net7.0\Exemplo_POO.dll
+C:\Users\joaov\Desktop\BootCamp---DIO\Exemplo_POO\obj\Debug\net7.0\refint\Exemplo_POO.dll
+C:\Users\joaov\Desktop\BootCamp---DIO\Exemplo_POO\obj\Debug\net7.0\Exemplo_POO.pdb
+C:\Users\joaov\Desktop\BootCamp---DIO\Exemplo_POO\obj\Debug\net7.0\Exemplo_POO.genruntimeconfig.cache
+C:\Users\joaov\Desktop\BootCamp---DIO\Exemplo_POO\obj\Debug\net7.0\ref\Exemplo_POO.dll
