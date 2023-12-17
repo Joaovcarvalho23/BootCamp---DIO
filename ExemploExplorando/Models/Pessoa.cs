@@ -7,7 +7,59 @@ namespace ExemploExplorando.Models
 {
     public class Pessoa
     {
-        public string? Nome { get; set; }
-        public int Idade { get; set; }
+        private string? _nome;
+        private int _idade;
+
+
+        public Pessoa()
+        {
+            
+        }
+
+        public Pessoa(string nome, string sobrenome)
+        {
+            Nome = nome;
+            Sobrenome = sobrenome;
+        }
+        
+
+        public string? Nome
+        { 
+            get => _nome; //CONVERTENDO PARA BODY EXPRESSIONS
+            
+            set
+            {
+                if(value == "")
+                {
+                    throw new ArgumentException("O nome não pode ser vazio!");
+                }
+
+                _nome = value;
+            }
+       
+        }
+
+        public int Idade
+        { 
+            get => _idade;
+
+            set
+            {
+                if(value < 0)  throw new ArgumentException("A idade não pode ser menor que zero!");
+
+                _idade = value;
+            }
+        }
+
+
+        public string? Sobrenome { get; set; }
+
+        public string NomeCompleto => $"{Nome} {Sobrenome}";
+
+
+        public void Apresentar()
+        {
+            Console.WriteLine($"Nome: {NomeCompleto}, Idade: {Idade}");
+        }
     }
 }
