@@ -29,4 +29,18 @@ public class CalculadoraTests
         //Assert
         Assert.Equal(15, resultado);
     }
+
+    [Fact]
+    public void DeveSomar10Com10ERetornar20()
+    {
+        //Arrange
+        int n1 = 10;
+        int n2 = 10;
+
+        //Act
+        int resultado = _calc.Somar(n1, n2);
+
+        //Assert
+        Assert.Equal(20, resultado);
+    }
 }
