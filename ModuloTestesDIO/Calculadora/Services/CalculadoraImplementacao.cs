@@ -12,5 +12,10 @@ namespace Calculadora.Services
             return n1 + n2;
             //return n1 + n2 + 1; retorna uma falha!!
         }
+
+        public bool EhPar (int numero)
+        {
+            return numero % 2 == 0;
+        }
     }
 }
