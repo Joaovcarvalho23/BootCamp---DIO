@@ -56,4 +56,23 @@ public class CalculadoraTests
         //Assert
         Assert.True(resultado);
     }
+
+    [Theory]
+    [InlineData(2)]
+    [InlineData(4)]
+    [InlineData(6)]
+    [InlineData(8)]
+    [InlineData(10)]
+    public void DeveVerificarSeOsNumerosSaoParesERetornaVerdadeiro(int numero)
+    {
+        //Arrange - nesse caso, não será necessário!
+
+        //Act
+        bool resultado = _calc.EhPar(numero);
+
+        //Assert
+        Assert.True(resultado);
+    }
+    /*O Theory ele é um conjunto de cenários que irão passar pelo mesmo teste. Executa o mesmo teste mais de uma vez. 
+    O InlineData serve para que possamos passar parâmetros no teste, e para cada InlineData é um teste diferente*/
 }
