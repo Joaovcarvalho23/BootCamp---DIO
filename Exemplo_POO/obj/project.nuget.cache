@@ -1,8 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "eDvOYSCmgsQKt64YERrtAIJ/Ha4nraiby8IH2qduTnLwwWVRCEBTQF7dHa/PONiAEri0pgesg6KiQg5DMgDf7g==",
+  "dgSpecHash": "tLFi+OXbUAjPTQemynR7oDcSZKSmf9Md+7/jLmHQaGQMTaZKxG5siHJ0b4WTjBqn7v93hkSBo9qlkesm/iVUXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joaov\\Desktop\\BootCamp---DIO\\Exemplo_POO\\Exemplo_POO.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "projectFilePath": "C:\\Users\\joao.gomes\\Desktop\\BootCamp---DIO\\Exemplo_POO\\Exemplo_POO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joao.gomes\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\joao.gomes\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\joao.gomes\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\joao.gomes\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://10.150.235.175:43675/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }

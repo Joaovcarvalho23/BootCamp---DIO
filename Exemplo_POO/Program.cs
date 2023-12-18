@@ -1,12 +1,35 @@
 ﻿using Exemplo_POO.Models;
 
 
-Aluno a1 = new Aluno();
-a1.Nome = "João Victor Carvalho";
-a1.Idade = 22;
-a1.Apresentar();
-a1.Nota = 8.7;
-a1.Email = "joao@gmail.com";
+Corrente c = new Corrente();
+c.Creditar(500);
+c.ExibirSaldo();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Aluno a1 = new Aluno();
+// a1.Nome = "João Victor Carvalho";
+// a1.Idade = 22;
+// a1.Apresentar();
+// a1.Nota = 8.7;
+// a1.Email = "joao@gmail.com";
 
 
 
