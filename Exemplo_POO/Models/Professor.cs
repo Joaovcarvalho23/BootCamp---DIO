@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Exemplo_POO.Models
 {
-    public sealed class Professor : Pessoa // quando temos 'sealed', significa que essa classe é a instância final de uma herança. Ou seja, ela não pode ter mais classes filhas
+    public class Professor : Pessoa // quando temos 'sealed', significa que essa classe é a instância final de uma herança. Ou seja, ela não pode ter mais classes filhas
     {
         // public Professor()
         // {
@@ -19,9 +19,9 @@ namespace Exemplo_POO.Models
 
         public decimal Salario { get; set; }
 
-        public override void Apresentar()
+        public sealed override void Apresentar()
         {
             Console.WriteLine($"Olá! Sou o professor {Nome} e o meu salário é de {Salario} reais!");
-        }
+        } // o método não pode mais ser instanciado por ninguém, pois está selado. Por isso que a classe Diretor não consegue herdar de Professor!
     }
 }
