@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp - DIO\\ExemploFundamentos\\ExemploFundamentos.csproj": {}
+    "C:\\Users\\joao.gomes\\Desktop\\BootCamp---DIO\\ExemploFundamentos\\ExemploFundamentos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp - DIO\\ExemploFundamentos\\ExemploFundamentos.csproj": {
+    "C:\\Users\\joao.gomes\\Desktop\\BootCamp---DIO\\ExemploFundamentos\\ExemploFundamentos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp - DIO\\ExemploFundamentos\\ExemploFundamentos.csproj",
+        "projectUniqueName": "C:\\Users\\joao.gomes\\Desktop\\BootCamp---DIO\\ExemploFundamentos\\ExemploFundamentos.csproj",
         "projectName": "ExemploFundamentos",
-        "projectPath": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp - DIO\\ExemploFundamentos\\ExemploFundamentos.csproj",
+        "projectPath": "C:\\Users\\joao.gomes\\Desktop\\BootCamp---DIO\\ExemploFundamentos\\ExemploFundamentos.csproj",
         "packagesPath": "C:\\Users\\joao.gomes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp - DIO\\ExemploFundamentos\\obj\\",
+        "outputPath": "C:\\Users\\joao.gomes\\Desktop\\BootCamp---DIO\\ExemploFundamentos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joao.gomes\\AppData\\Roaming\\NuGet\\NuGet.Config",

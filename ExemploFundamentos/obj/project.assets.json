@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp - DIO\\ExemploFundamentos\\ExemploFundamentos.csproj",
+      "projectUniqueName": "C:\\Users\\joao.gomes\\Desktop\\BootCamp---DIO\\ExemploFundamentos\\ExemploFundamentos.csproj",
       "projectName": "ExemploFundamentos",
-      "projectPath": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp - DIO\\ExemploFundamentos\\ExemploFundamentos.csproj",
+      "projectPath": "C:\\Users\\joao.gomes\\Desktop\\BootCamp---DIO\\ExemploFundamentos\\ExemploFundamentos.csproj",
       "packagesPath": "C:\\Users\\joao.gomes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp - DIO\\ExemploFundamentos\\obj\\",
+      "outputPath": "C:\\Users\\joao.gomes\\Desktop\\BootCamp---DIO\\ExemploFundamentos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joao.gomes\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -67,6 +67,11 @@
     }
   },
   "logs": [
-    
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://10.150.235.175:43675/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
   ]
 }
