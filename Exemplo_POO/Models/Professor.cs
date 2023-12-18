@@ -5,17 +5,17 @@ using System.Threading.Tasks;
 
 namespace Exemplo_POO.Models
 {
-    public class Professor : Pessoa
+    public sealed class Professor : Pessoa // quando temos 'sealed', significa que essa classe é a instância final de uma herança. Ou seja, ela não pode ter mais classes filhas
     {
-        public Professor()
-        {
+        // public Professor()
+        // {
 
-        } //agora você pode determinar se quer passar algum valor ou não, pois agora tem dois construtores, um vazio e um com parâmetro
+        // } //agora você pode determinar se quer passar algum valor ou não, pois agora tem dois construtores, um vazio e um com parâmetro
 
-        public Professor(string nome) : base(nome)
-        {
+        // public Professor(string nome) : base(nome)
+        // {
             
-        }
+        // }
 
         public decimal Salario { get; set; }
 
