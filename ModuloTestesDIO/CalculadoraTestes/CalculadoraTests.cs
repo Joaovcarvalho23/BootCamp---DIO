@@ -58,21 +58,20 @@ public class CalculadoraTests
     }
 
     [Theory]
-    [InlineData(2)]
-    [InlineData(4)]
-    [InlineData(6)]
-    [InlineData(8)]
-    [InlineData(10)]
-    public void DeveVerificarSeOsNumerosSaoParesERetornaVerdadeiro(int numero)
+    [InlineData(new int[] { 2, 4 })]
+    [InlineData(new int[] { 6, 8, 10 })]
+    public void DeveVerificarSeOsNumerosSaoParesERetornaVerdadeiro(int[] numeros)
     {
-        //Arrange - nesse caso, não será necessário!
+        //Act / Assert
+        Assert.All(numeros, num => Assert.True(_calc.EhPar(num)));
+        //Esse método vai fazer uma validação para todos os elementos da minha lista. Ele recebe o Array como parâmetro, e recebe uma ação
+        //esse 'num' vai representar o elemento atual do laço de repetição. Ou seja, esse num vai valer 2, depois vai valer 4, etc...
 
-        //Act
-        bool resultado = _calc.EhPar(numero);
-
-        //Assert
-        Assert.True(resultado);
+        //também funciona...
+        // foreach (var item in numeros)
+        // {
+        //     Assert.True(_calc.EhPar(item));
+        // }
     }
-    /*O Theory ele é um conjunto de cenários que irão passar pelo mesmo teste. Executa o mesmo teste mais de uma vez. 
-    O InlineData serve para que possamos passar parâmetros no teste, e para cada InlineData é um teste diferente*/
+    //Agora estamos recebendo uma lista como parâmetro
 }
