@@ -5,38 +5,90 @@ class Program
 {
     static void Main()
     {
-        string[] velocidades = Console.ReadLine().Split(' ');
+        Jogador j1 = new Jogador();
 
-        int vmin;
-        while (!int.TryParse(velocidades[0], out vmin))
+        string nome = Console.ReadLine();
+        string nacionalidade = Console.ReadLine();
+        int idade;
+        while(!int.TryParse(Console.ReadLine(), out idade))
         {
-            Console.WriteLine("Velocidade mínima no formato inválido");
+            Console.WriteLine("Idade inválida.");
         }
+        string posicao = Console.ReadLine();
 
-        int vmax;
-        while (!int.TryParse(velocidades[1], out vmax))
-        {
-            Console.WriteLine("Velocidade máxima no formato inválido");
-        }
+        j1.Novo(nome, nacionalidade, idade, posicao);
 
-        Robo robot = new Robo(vmin, vmax);
+        j1.ExibirInformacoes();
 
-        string comandos = Console.ReadLine();
 
-        foreach (var item in comandos)
-        {
-            if(item == 'A')
-            {
-                robot.Acelerar();
-            }
 
-            if(item == 'D')
-            {
-                robot.Desacelerar();
-            }
-        }
 
-        Console.WriteLine(robot.VelocidadeAtual);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // string[] velocidades = Console.ReadLine().Split(' ');
+
+        // int vmin;
+        // while (!int.TryParse(velocidades[0], out vmin))
+        // {
+        //     Console.WriteLine("Velocidade mínima no formato inválido");
+        // }
+
+        // int vmax;
+        // while (!int.TryParse(velocidades[1], out vmax))
+        // {
+        //     Console.WriteLine("Velocidade máxima no formato inválido");
+        // }
+
+        // Robo robot = new Robo(vmin, vmax);
+
+        // string comandos = Console.ReadLine();
+
+        // foreach (var item in comandos)
+        // {
+        //     if(item == 'A')
+        //     {
+        //         robot.Acelerar();
+        //     }
+
+        //     if(item == 'D')
+        //     {
+        //         robot.Desacelerar();
+        //     }
+        // }
+
+        // Console.WriteLine(robot.VelocidadeAtual);
         
 
 
