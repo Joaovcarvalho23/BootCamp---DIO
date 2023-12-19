@@ -5,20 +5,59 @@ class Program
 {
     static void Main()
     {
-        Jogador j1 = new Jogador();
-
         string nome = Console.ReadLine();
-        string nacionalidade = Console.ReadLine();
-        int idade;
-        while(!int.TryParse(Console.ReadLine(), out idade))
-        {
-            Console.WriteLine("Idade inválida.");
-        }
-        string posicao = Console.ReadLine();
+        string raca = Console.ReadLine();
+        string classe = Console.ReadLine();
 
-        j1.Novo(nome, nacionalidade, idade, posicao);
+        Personagem p1 = new Personagem(nome, raca, classe);
 
-        j1.ExibirInformacoes();
+        p1.Nivel = 1;
+        p1.Vida = 10;
+
+        p1.ExibirStatus();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // Jogador j1 = new Jogador();
+
+        // string nome = Console.ReadLine();
+        // string nacionalidade = Console.ReadLine();
+        // int idade;
+        // while(!int.TryParse(Console.ReadLine(), out idade))
+        // {
+        //     Console.WriteLine("Idade inválida.");
+        // }
+        // string posicao = Console.ReadLine();
+
+        // j1.Novo(nome, nacionalidade, idade, posicao);
+
+        // j1.ExibirInformacoes();
 
 
 
