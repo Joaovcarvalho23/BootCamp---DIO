@@ -1,0 +1,15 @@
+C:\Users\joao.gomes\Desktop\BootCamp---DIO\PraticaPOODesafiosCodigo\bin\Debug\net8.0\PraticaPOODesafiosCodigo.exe
+C:\Users\joao.gomes\Desktop\BootCamp---DIO\PraticaPOODesafiosCodigo\bin\Debug\net8.0\PraticaPOODesafiosCodigo.deps.json
+C:\Users\joao.gomes\Desktop\BootCamp---DIO\PraticaPOODesafiosCodigo\bin\Debug\net8.0\PraticaPOODesafiosCodigo.runtimeconfig.json
+C:\Users\joao.gomes\Desktop\BootCamp---DIO\PraticaPOODesafiosCodigo\bin\Debug\net8.0\PraticaPOODesafiosCodigo.dll
+C:\Users\joao.gomes\Desktop\BootCamp---DIO\PraticaPOODesafiosCodigo\bin\Debug\net8.0\PraticaPOODesafiosCodigo.pdb
+C:\Users\joao.gomes\Desktop\BootCamp---DIO\PraticaPOODesafiosCodigo\obj\Debug\net8.0\PraticaPOODesafiosCodigo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joao.gomes\Desktop\BootCamp---DIO\PraticaPOODesafiosCodigo\obj\Debug\net8.0\PraticaPOODesafiosCodigo.AssemblyInfoInputs.cache
+C:\Users\joao.gomes\Desktop\BootCamp---DIO\PraticaPOODesafiosCodigo\obj\Debug\net8.0\PraticaPOODesafiosCodigo.AssemblyInfo.cs
+C:\Users\joao.gomes\Desktop\BootCamp---DIO\PraticaPOODesafiosCodigo\obj\Debug\net8.0\PraticaPOODesafiosCodigo.csproj.CoreCompileInputs.cache
+C:\Users\joao.gomes\Desktop\BootCamp---DIO\PraticaPOODesafiosCodigo\obj\Debug\net8.0\PraticaPOODesafiosCodigo.sourcelink.json
+C:\Users\joao.gomes\Desktop\BootCamp---DIO\PraticaPOODesafiosCodigo\obj\Debug\net8.0\PraticaPOODesafiosCodigo.dll
+C:\Users\joao.gomes\Desktop\BootCamp---DIO\PraticaPOODesafiosCodigo\obj\Debug\net8.0\refint\PraticaPOODesafiosCodigo.dll
+C:\Users\joao.gomes\Desktop\BootCamp---DIO\PraticaPOODesafiosCodigo\obj\Debug\net8.0\PraticaPOODesafiosCodigo.pdb
+C:\Users\joao.gomes\Desktop\BootCamp---DIO\PraticaPOODesafiosCodigo\obj\Debug\net8.0\PraticaPOODesafiosCodigo.genruntimeconfig.cache
+C:\Users\joao.gomes\Desktop\BootCamp---DIO\PraticaPOODesafiosCodigo\obj\Debug\net8.0\ref\PraticaPOODesafiosCodigo.dll
