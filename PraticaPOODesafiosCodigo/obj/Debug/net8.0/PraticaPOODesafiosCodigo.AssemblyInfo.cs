@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PraticaPOODesafiosCodigo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ee7dca652d0638dcb89401e89a51ab038616a96")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d77fa9be1dc9afc81fabba7b4d754c5e77ab1df")]
 [assembly: System.Reflection.AssemblyProductAttribute("PraticaPOODesafiosCodigo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PraticaPOODesafiosCodigo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
