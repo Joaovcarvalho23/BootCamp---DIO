@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using PraticaPOODesafiosCodigo.Models;
 
 class Program
@@ -6,15 +7,62 @@ class Program
     static void Main()
     {
         string nome = Console.ReadLine();
-        string raca = Console.ReadLine();
-        string classe = Console.ReadLine();
+        int mana;
+        while(!int.TryParse(Console.ReadLine(), out mana))
+        {
+            Console.WriteLine($"Mana com formato inválido");
+        }
+        int danoBase;
+        while(!int.TryParse(Console.ReadLine(), out danoBase))
+        {
+            Console.WriteLine($"Dano Base no formato inválido");
+        }
 
-        Personagem p1 = new Personagem(nome, raca, classe);
+        Subclasse sub = new Subclasse(nome, mana, danoBase);
 
-        p1.Nivel = 1;
-        p1.Vida = 10;
+        sub.CalcularDano();
 
-        p1.ExibirStatus();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // string nome = Console.ReadLine();
+        // string raca = Console.ReadLine();
+        // string classe = Console.ReadLine();
+
+        // Personagem p1 = new Personagem(nome, raca, classe);
+
+        // p1.Nivel = 1;
+        // p1.Vida = 10;
+
+        // p1.ExibirStatus();
 
 
 
