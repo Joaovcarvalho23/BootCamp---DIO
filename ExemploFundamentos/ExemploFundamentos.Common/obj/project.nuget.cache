@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UMVlQtmafxpwo3vC7A3U1lR3XziH+x2qYjOnbbD5okUdSlfRuq8vxeFwbvRfGA1QHqPEUdqtcBmoMRMed8B8Lw==",
+  "dgSpecHash": "OV5JyvrFZKD7R/1TL3HMB6Wy/1SPxiO0hABaKzMN0BjZypUk/SZ6JQKIRKMyFtD53jSCR9+yR9dk045/AhMcSA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp - DIO\\BootCamp---DIO\\ExemploFundamentos\\ExemploFundamentos.csproj",
+  "projectFilePath": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp - DIO\\BootCamp---DIO\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {
