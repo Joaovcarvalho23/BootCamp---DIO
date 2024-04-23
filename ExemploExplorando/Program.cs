@@ -1,21 +1,63 @@
 ﻿using ExemploExplorando.Models;
 using System.Globalization;
 
-LeituraArquivo arquivo = new LeituraArquivo();
-var (sucesso, linhasArquivo, _) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt"); //descarta a ultima opcao. Pois so vou querer reternar as duas primeiras
 
-if(sucesso)
-{
-    // Console.WriteLine($"Quantidade de linhas no arquivo: {quantidadeLinhas}");
-    foreach(string linha in linhasArquivo)
-    {
-        Console.WriteLine(linha);
-    }
-}
-else
-{
-    Console.WriteLine("Nao foi possivel ler o arquivo");
-}
+Pessoa p1 = new Pessoa("Joao Victor", "Carvalho");
+
+(string nome, string sobrenome) = p1; //aqui vamos desconstruir o nome e o sobrenome
+
+Console.WriteLine($"Nome completo: {nome} {sobrenome}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// LeituraArquivo arquivo = new LeituraArquivo();
+// var (sucesso, linhasArquivo, _) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt"); //descarta a ultima opcao. Pois so vou querer reternar as duas primeiras
+
+// if(sucesso)
+// {
+//     // Console.WriteLine($"Quantidade de linhas no arquivo: {quantidadeLinhas}");
+//     foreach(string linha in linhasArquivo)
+//     {
+//         Console.WriteLine(linha);
+//     }
+// }
+// else
+// {
+//     Console.WriteLine("Nao foi possivel ler o arquivo");
+// }
 
 
 

@@ -16,10 +16,17 @@ namespace ExemploExplorando.Models
             
         }
 
+
         public Pessoa(string nome, string sobrenome)
         {
             Nome = nome;
             Sobrenome = sobrenome;
+        }
+        
+        public void Deconstruct(out string nome, out string sobrenome) //o out serve para descontruir o nome e o sobrenome
+        { //out = parametro de saida
+            nome = Nome;
+            sobrenome = Sobrenome;
         }
         
 
