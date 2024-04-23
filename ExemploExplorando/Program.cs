@@ -2,11 +2,11 @@
 using System.Globalization;
 
 LeituraArquivo arquivo = new LeituraArquivo();
-var (sucesso, linhasArquivo, quantidadeLinhas) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+var (sucesso, linhasArquivo, _) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt"); //descarta a ultima opcao. Pois so vou querer reternar as duas primeiras
 
 if(sucesso)
 {
-    Console.WriteLine($"Quantidade de linhas no arquivo: {quantidadeLinhas}");
+    // Console.WriteLine($"Quantidade de linhas no arquivo: {quantidadeLinhas}");
     foreach(string linha in linhasArquivo)
     {
         Console.WriteLine(linha);
