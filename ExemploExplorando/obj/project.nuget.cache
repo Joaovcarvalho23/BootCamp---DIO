@@ -1,14 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "uqhOIrHWnnd6eV8al53wvq6t9eD5iob2h9aDK1AY5i64Y0q0PhseP3vJuN3PvyHbC5Imz7liG8tAKIw0NGxm2Q==",
+  "dgSpecHash": "5qC52WgHMMg7zLDWTrBTahIKjGOSlRQ7IDIDMEowPDAyN5Au0V6txDf8amWzU7ADydqOhKXznn4oJGvN0qrTmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joao.gomes\\Desktop\\BootCamp---DIO\\ExemploExplorando\\ExemploExplorando.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\joao.gomes\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\joao.gomes\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\joao.gomes\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\joao.gomes\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ExemploExplorando\\ExemploExplorando.csproj",
+  "expectedPackageFiles": [],
   "logs": [
     {
       "code": "NU1803",
