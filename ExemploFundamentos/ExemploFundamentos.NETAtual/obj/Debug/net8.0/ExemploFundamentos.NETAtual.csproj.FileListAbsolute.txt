@@ -1,0 +1,15 @@
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploFundamentos\ExemploFundamentos.NETAtual\obj\Debug\net8.0\ExemploFundamentos.NETAtual.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploFundamentos\ExemploFundamentos.NETAtual\obj\Debug\net8.0\ExemploFundamentos.NETAtual.AssemblyInfoInputs.cache
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploFundamentos\ExemploFundamentos.NETAtual\obj\Debug\net8.0\ExemploFundamentos.NETAtual.AssemblyInfo.cs
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploFundamentos\ExemploFundamentos.NETAtual\obj\Debug\net8.0\ExemploFundamentos.NETAtual.csproj.CoreCompileInputs.cache
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploFundamentos\ExemploFundamentos.NETAtual\obj\Debug\net8.0\ExemploFundamentos.NETAtual.sourcelink.json
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploFundamentos\ExemploFundamentos.NETAtual\bin\Debug\net8.0\ExemploFundamentos.NETAtual.exe
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploFundamentos\ExemploFundamentos.NETAtual\bin\Debug\net8.0\ExemploFundamentos.NETAtual.deps.json
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploFundamentos\ExemploFundamentos.NETAtual\bin\Debug\net8.0\ExemploFundamentos.NETAtual.runtimeconfig.json
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploFundamentos\ExemploFundamentos.NETAtual\bin\Debug\net8.0\ExemploFundamentos.NETAtual.dll
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploFundamentos\ExemploFundamentos.NETAtual\bin\Debug\net8.0\ExemploFundamentos.NETAtual.pdb
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploFundamentos\ExemploFundamentos.NETAtual\obj\Debug\net8.0\ExemploFundamentos.NETAtual.dll
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploFundamentos\ExemploFundamentos.NETAtual\obj\Debug\net8.0\refint\ExemploFundamentos.NETAtual.dll
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploFundamentos\ExemploFundamentos.NETAtual\obj\Debug\net8.0\ExemploFundamentos.NETAtual.pdb
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploFundamentos\ExemploFundamentos.NETAtual\obj\Debug\net8.0\ExemploFundamentos.NETAtual.genruntimeconfig.cache
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploFundamentos\ExemploFundamentos.NETAtual\obj\Debug\net8.0\ref\ExemploFundamentos.NETAtual.dll
