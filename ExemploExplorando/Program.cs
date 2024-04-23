@@ -1,12 +1,48 @@
 ﻿using ExemploExplorando.Models;
 using System.Globalization;
 
+int numero = 23;
+bool ehPar;
 
-Pessoa p1 = new Pessoa("Joao Victor", "Carvalho");
+ehPar = numero % 2 == 0;
+Console.WriteLine($"O numero {numero} eh {(ehPar ? "par" : "impar")}" );
 
-(string nome, string sobrenome) = p1; //aqui vamos desconstruir o nome e o sobrenome
 
-Console.WriteLine($"Nome completo: {nome} {sobrenome}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa("Joao Victor", "Carvalho");
+
+// (string nome, string sobrenome) = p1; //aqui vamos desconstruir o nome e o sobrenome
+
+// Console.WriteLine($"Nome completo: {nome} {sobrenome}");
 
 
 
