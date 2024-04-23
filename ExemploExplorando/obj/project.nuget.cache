@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5qC52WgHMMg7zLDWTrBTahIKjGOSlRQ7IDIDMEowPDAyN5Au0V6txDf8amWzU7ADydqOhKXznn4oJGvN0qrTmw==",
+  "dgSpecHash": "dH9kSSQv5LFk2lIaeo4A4qMzFB7dMQiKEkc6NBEIrS+Sy1z2mde+xbzWFl6WpKhKANYcNsh5uI3KNKXM6YGChg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ExemploExplorando\\ExemploExplorando.csproj",
+  "projectFilePath": "C:\\Users\\joaov\\source\\repos\\BootCamp---DIO\\ExemploExplorando\\ExemploExplorando.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://10.150.235.175:43675/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  "logs": []
 }

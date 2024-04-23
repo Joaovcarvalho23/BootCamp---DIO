@@ -28,3 +28,17 @@ C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploExplorando\obj\Debug\net7
 C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.pdb
 C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.genruntimeconfig.cache
 C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploExplorando\obj\Debug\net7.0\ref\ExemploExplorando.dll
+C:\Users\joaov\source\repos\BootCamp---DIO\ExemploExplorando\bin\Debug\net7.0\ExemploExplorando.exe
+C:\Users\joaov\source\repos\BootCamp---DIO\ExemploExplorando\bin\Debug\net7.0\ExemploExplorando.deps.json
+C:\Users\joaov\source\repos\BootCamp---DIO\ExemploExplorando\bin\Debug\net7.0\ExemploExplorando.runtimeconfig.json
+C:\Users\joaov\source\repos\BootCamp---DIO\ExemploExplorando\bin\Debug\net7.0\ExemploExplorando.dll
+C:\Users\joaov\source\repos\BootCamp---DIO\ExemploExplorando\bin\Debug\net7.0\ExemploExplorando.pdb
+C:\Users\joaov\source\repos\BootCamp---DIO\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaov\source\repos\BootCamp---DIO\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.AssemblyInfoInputs.cache
+C:\Users\joaov\source\repos\BootCamp---DIO\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.AssemblyInfo.cs
+C:\Users\joaov\source\repos\BootCamp---DIO\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.csproj.CoreCompileInputs.cache
+C:\Users\joaov\source\repos\BootCamp---DIO\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.dll
+C:\Users\joaov\source\repos\BootCamp---DIO\ExemploExplorando\obj\Debug\net7.0\refint\ExemploExplorando.dll
+C:\Users\joaov\source\repos\BootCamp---DIO\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.pdb
+C:\Users\joaov\source\repos\BootCamp---DIO\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.genruntimeconfig.cache
+C:\Users\joaov\source\repos\BootCamp---DIO\ExemploExplorando\obj\Debug\net7.0\ref\ExemploExplorando.dll

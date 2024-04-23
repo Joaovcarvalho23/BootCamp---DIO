@@ -1,12 +1,66 @@
 ﻿using ExemploExplorando.Models;
 using System.Globalization;
 
-(int, string, string, decimal) tupla = (1, "João Victor", "Carvalho", 1.9M);
+LeituraArquivo arquivo = new LeituraArquivo();
+var (sucesso, linhasArquivo, quantidadeLinhas) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
 
-Console.WriteLine($"Id: {tupla.Item1}");
-Console.WriteLine($"Nome: {tupla.Item2}");
-Console.WriteLine($"Sobrenome: {tupla.Item3}");
-Console.WriteLine($"Altura: {tupla.Item4}");
+if(sucesso)
+{
+    Console.WriteLine($"Quantidade de linhas no arquivo: {quantidadeLinhas}");
+    foreach(string linha in linhasArquivo)
+    {
+        Console.WriteLine(linha);
+    }
+}
+else
+{
+    Console.WriteLine("Nao foi possivel ler o arquivo");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// (int, string, string, decimal) tupla = (1, "João Victor", "Carvalho", 1.9M);
+
+// Console.WriteLine($"Id: {tupla.Item1}");
+// Console.WriteLine($"Nome: {tupla.Item2}");
+// Console.WriteLine($"Sobrenome: {tupla.Item3}");
+// Console.WriteLine($"Altura: {tupla.Item4}");
 
 
 
