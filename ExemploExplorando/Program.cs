@@ -1,11 +1,61 @@
 ﻿using ExemploExplorando.Models;
+using Newtonsoft.Json;
 using System.Globalization;
 
-int numero = 23;
-bool ehPar;
+Vendas v1 = new Vendas(1, "Material escolar", 27.00M);
 
-ehPar = numero % 2 == 0;
-Console.WriteLine($"O numero {numero} eh {(ehPar ? "par" : "impar")}" );
+string v1Serializado = JsonConvert.SerializeObject(v1, Formatting.Indented); //estamos convertendo o objeto v1 para o formato JSON, para que ele possa ser lido por outras ferramentas
+
+Console.WriteLine(v1Serializado);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int numero = 23;
+// bool ehPar;
+
+// ehPar = numero % 2 == 0;
+// Console.WriteLine($"O numero {numero} eh {(ehPar ? "par" : "impar")}" );
 
 
 
