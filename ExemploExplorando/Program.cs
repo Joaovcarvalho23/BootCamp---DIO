@@ -2,9 +2,21 @@
 using Newtonsoft.Json;
 using System.Globalization;
 
-Vendas v1 = new Vendas(1, "Material escolar", 27.00M);
+List<Vendas> listaDeVendas = new List<Vendas>(); //coleção de objetos do tipo Vendas
 
-string v1Serializado = JsonConvert.SerializeObject(v1, Formatting.Indented); //estamos convertendo o objeto v1 para o formato JSON, para que ele possa ser lido por outras ferramentas
+Vendas v1 = new Vendas(1, "Material escolar", 27.00M);
+Vendas v2 = new Vendas(2, "Roupas", 30.00M);
+Vendas v3 = new Vendas(3, "Fones", 45.00M);
+Vendas v4 = new Vendas(4, "Sapatos", 80.00M);
+
+listaDeVendas.Add(v1);
+listaDeVendas.Add(v2);
+listaDeVendas.Add(v3);
+listaDeVendas.Add(v4);
+
+string v1Serializado = JsonConvert.SerializeObject(listaDeVendas, Formatting.Indented); //estamos convertendo o objeto v1 para o formato JSON, para que ele possa ser lido por outras ferramentas
+
+File.WriteAllText("Arquivos/vendas.json", v1Serializado);
 
 Console.WriteLine(v1Serializado);
 

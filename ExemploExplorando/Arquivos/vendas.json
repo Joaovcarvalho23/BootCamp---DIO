@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 1,
+    "Produto": "Material escolar",
+    "Preco": 27.00
+  },
+  {
+    "Id": 2,
+    "Produto": "Roupas",
+    "Preco": 30.00
+  },
+  {
+    "Id": 3,
+    "Produto": "Fones",
+    "Preco": 45.00
+  },
+  {
+    "Id": 4,
+    "Produto": "Sapatos",
+    "Preco": 80.00
+  }
+]
