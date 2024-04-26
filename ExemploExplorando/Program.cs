@@ -2,12 +2,14 @@
 using Newtonsoft.Json;
 using System.Globalization;
 
+DateTime dataAtual = DateTime.Now;
+
 List<Vendas> listaDeVendas = new List<Vendas>(); //coleção de objetos do tipo Vendas
 
-Vendas v1 = new Vendas(1, "Material escolar", 27.00M);
-Vendas v2 = new Vendas(2, "Roupas", 30.00M);
-Vendas v3 = new Vendas(3, "Fones", 45.00M);
-Vendas v4 = new Vendas(4, "Sapatos", 80.00M);
+Vendas v1 = new Vendas(1, "Material escolar", 27.00M, dataAtual);
+Vendas v2 = new Vendas(2, "Roupas", 30.00M, dataAtual);
+Vendas v3 = new Vendas(3, "Fones", 45.00M, dataAtual);
+Vendas v4 = new Vendas(4, "Sapatos", 80.00M, dataAtual);
 
 listaDeVendas.Add(v1);
 listaDeVendas.Add(v2);
