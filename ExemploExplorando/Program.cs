@@ -8,7 +8,7 @@ List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArqu
 
 foreach (Venda itemVenda in listaVenda)
 {
-    Console.WriteLine($"Id: {itemVenda.Id}, Produto: {itemVenda.Produto}, Preço: {itemVenda.Preco}"+
+    Console.WriteLine($"Id: {itemVenda.Id}, Produto: {itemVenda.Produto}, Preço: {itemVenda.Preco}, "+
                       $"Data da venda: {itemVenda.DataDaVenda.ToString("dd/MM/yyyy")} às {itemVenda.DataDaVenda.ToString("HH:mm")}");    
 }
 

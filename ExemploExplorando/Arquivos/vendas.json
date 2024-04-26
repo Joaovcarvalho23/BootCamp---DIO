@@ -1,26 +1,26 @@
 [
   {
     "Id": 1,
-    "Produto": "Material escolar",
-    "Preco": 27.00,
+    "Nome_Produto": "Material escolar",
+    "Valor": 27.00,
     "DataDaVenda": "2024-04-26T10:12:12.8791686-03:00"
   },
   {
     "Id": 2,
-    "Produto": "Roupas",
-    "Preco": 30.00,
+    "Nome_Produto": "Roupas",
+    "Valor": 30.00,
     "DataDaVenda": "2024-04-26T10:12:12.8791686-03:00"
   },
   {
     "Id": 3,
-    "Produto": "Fones",
-    "Preco": 45.00,
+    "Nome_Produto": "Fones",
+    "Valor": 45.00,
     "DataDaVenda": "2024-04-26T10:12:12.8791686-03:00"
   },
   {
     "Id": 4,
-    "Produto": "Sapatos",
-    "Preco": 80.00,
+    "Nome_Produto": "Sapatos",
+    "Valor": 80.00,
     "DataDaVenda": "2024-04-26T10:12:12.8791686-03:00"
   }
 ]
