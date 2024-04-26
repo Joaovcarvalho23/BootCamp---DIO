@@ -2,25 +2,64 @@
 using Newtonsoft.Json;
 using System.Globalization;
 
-DateTime dataAtual = DateTime.Now;
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
 
-List<Vendas> listaDeVendas = new List<Vendas>(); //coleção de objetos do tipo Vendas
+List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
 
-Vendas v1 = new Vendas(1, "Material escolar", 27.00M, dataAtual);
-Vendas v2 = new Vendas(2, "Roupas", 30.00M, dataAtual);
-Vendas v3 = new Vendas(3, "Fones", 45.00M, dataAtual);
-Vendas v4 = new Vendas(4, "Sapatos", 80.00M, dataAtual);
+foreach (Venda itemVenda in listaVenda)
+{
+    Console.WriteLine($"Id: {itemVenda.Id}, Produto: {itemVenda.Produto}, Preço: {itemVenda.Preco}"+
+                      $"Data da venda: {itemVenda.DataDaVenda.ToString("dd/MM/yyyy")} às {itemVenda.DataDaVenda.ToString("HH:mm")}");    
+}
 
-listaDeVendas.Add(v1);
-listaDeVendas.Add(v2);
-listaDeVendas.Add(v3);
-listaDeVendas.Add(v4);
 
-string v1Serializado = JsonConvert.SerializeObject(listaDeVendas, Formatting.Indented); //estamos convertendo o objeto v1 para o formato JSON, para que ele possa ser lido por outras ferramentas
 
-File.WriteAllText("Arquivos/vendas.json", v1Serializado);
 
-Console.WriteLine(v1Serializado);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// DateTime dataAtual = DateTime.Now;
+
+// List<Vendas> listaDeVendas = new List<Vendas>(); //coleção de objetos do tipo Vendas
+
+// Vendas v1 = new Vendas(1, "Material escolar", 27.00M, dataAtual);
+// Vendas v2 = new Vendas(2, "Roupas", 30.00M, dataAtual);
+// Vendas v3 = new Vendas(3, "Fones", 45.00M, dataAtual);
+// Vendas v4 = new Vendas(4, "Sapatos", 80.00M, dataAtual);
+
+// listaDeVendas.Add(v1);
+// listaDeVendas.Add(v2);
+// listaDeVendas.Add(v3);
+// listaDeVendas.Add(v4);
+
+// string v1Serializado = JsonConvert.SerializeObject(listaDeVendas, Formatting.Indented); //estamos convertendo o objeto v1 para o formato JSON, para que ele possa ser lido por outras ferramentas
+
+// File.WriteAllText("Arquivos/vendas.json", v1Serializado);
+
+// Console.WriteLine(v1Serializado);
 
 
 
