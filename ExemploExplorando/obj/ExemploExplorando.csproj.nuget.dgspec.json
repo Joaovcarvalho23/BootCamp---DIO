@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ExemploExplorando\\ExemploExplorando.csproj": {}
+    "C:\\Users\\joaov\\source\\repos\\BootCamp---DIO\\ExemploExplorando\\ExemploExplorando.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ExemploExplorando\\ExemploExplorando.csproj": {
+    "C:\\Users\\joaov\\source\\repos\\BootCamp---DIO\\ExemploExplorando\\ExemploExplorando.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ExemploExplorando\\ExemploExplorando.csproj",
+        "projectUniqueName": "C:\\Users\\joaov\\source\\repos\\BootCamp---DIO\\ExemploExplorando\\ExemploExplorando.csproj",
         "projectName": "ExemploExplorando",
-        "projectPath": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ExemploExplorando\\ExemploExplorando.csproj",
-        "packagesPath": "C:\\Users\\joao.gomes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ExemploExplorando\\obj\\",
+        "projectPath": "C:\\Users\\joaov\\source\\repos\\BootCamp---DIO\\ExemploExplorando\\ExemploExplorando.csproj",
+        "packagesPath": "C:\\Users\\joaov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joaov\\source\\repos\\BootCamp---DIO\\ExemploExplorando\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\joao.gomes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\joaov\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://10.150.235.175:43675/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -36,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -68,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

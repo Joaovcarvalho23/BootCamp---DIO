@@ -45,3 +45,6 @@ C:\Users\joaov\source\repos\BootCamp---DIO\ExemploExplorando\obj\Debug\net7.0\re
 C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploExplorando\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.csproj.AssemblyReference.cache
 C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploExplorando\obj\Debug\net7.0\ExemploE.B7F01285.Up2Date
+C:\Users\joaov\source\repos\BootCamp---DIO\ExemploExplorando\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\joaov\source\repos\BootCamp---DIO\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.csproj.AssemblyReference.cache
+C:\Users\joaov\source\repos\BootCamp---DIO\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.csproj.CopyComplete
