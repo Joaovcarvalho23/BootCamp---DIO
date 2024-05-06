@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joaov\\source\\repos\\BootCamp---DIO\\ExemploExplorando\\ExemploExplorando.csproj": {}
+    "C:\\Users\\joaov\\source\\repos\\BootCamp---DIO\\ModuloApi\\ModuloApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joaov\\source\\repos\\BootCamp---DIO\\ExemploExplorando\\ExemploExplorando.csproj": {
+    "C:\\Users\\joaov\\source\\repos\\BootCamp---DIO\\ModuloApi\\ModuloApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joaov\\source\\repos\\BootCamp---DIO\\ExemploExplorando\\ExemploExplorando.csproj",
-        "projectName": "ExemploExplorando",
-        "projectPath": "C:\\Users\\joaov\\source\\repos\\BootCamp---DIO\\ExemploExplorando\\ExemploExplorando.csproj",
+        "projectUniqueName": "C:\\Users\\joaov\\source\\repos\\BootCamp---DIO\\ModuloApi\\ModuloApi.csproj",
+        "projectName": "ModuloApi",
+        "projectPath": "C:\\Users\\joaov\\source\\repos\\BootCamp---DIO\\ModuloApi\\ModuloApi.csproj",
         "packagesPath": "C:\\Users\\joaov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joaov\\source\\repos\\BootCamp---DIO\\ExemploExplorando\\obj\\",
+        "outputPath": "C:\\Users\\joaov\\source\\repos\\BootCamp---DIO\\ModuloApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joaov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,13 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Newtonsoft.Json": {
+            "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[13.0.3, )"
+              "version": "[7.0.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -57,6 +61,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
