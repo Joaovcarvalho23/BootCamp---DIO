@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ModuloApi.Entities
+namespace ModuloApi.Models
 {
     public class Contato
     {
