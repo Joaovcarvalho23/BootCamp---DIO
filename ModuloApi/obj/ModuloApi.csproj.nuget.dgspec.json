@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joaov\\source\\repos\\BootCamp---DIO\\ModuloApi\\ModuloApi.csproj": {}
+    "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ModuloApi\\ModuloApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joaov\\source\\repos\\BootCamp---DIO\\ModuloApi\\ModuloApi.csproj": {
+    "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ModuloApi\\ModuloApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joaov\\source\\repos\\BootCamp---DIO\\ModuloApi\\ModuloApi.csproj",
+        "projectUniqueName": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ModuloApi\\ModuloApi.csproj",
         "projectName": "ModuloApi",
-        "projectPath": "C:\\Users\\joaov\\source\\repos\\BootCamp---DIO\\ModuloApi\\ModuloApi.csproj",
-        "packagesPath": "C:\\Users\\joaov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joaov\\source\\repos\\BootCamp---DIO\\ModuloApi\\obj\\",
+        "projectPath": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ModuloApi\\ModuloApi.csproj",
+        "packagesPath": "C:\\Users\\joao.gomes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ModuloApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\joaov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\joao.gomes\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://10.150.235.175:43675/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +36,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -43,6 +50,16 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.14, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -68,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }
