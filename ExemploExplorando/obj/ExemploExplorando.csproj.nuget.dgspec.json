@@ -1,29 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ExemploExplorando\\ExemploExplorando.csproj": {}
+    "/home/joao/Repositórios/BootCamp---DIO/ExemploExplorando/ExemploExplorando.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ExemploExplorando\\ExemploExplorando.csproj": {
+    "/home/joao/Repositórios/BootCamp---DIO/ExemploExplorando/ExemploExplorando.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ExemploExplorando\\ExemploExplorando.csproj",
+        "projectUniqueName": "/home/joao/Repositórios/BootCamp---DIO/ExemploExplorando/ExemploExplorando.csproj",
         "projectName": "ExemploExplorando",
-        "projectPath": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ExemploExplorando\\ExemploExplorando.csproj",
-        "packagesPath": "C:\\Users\\joao.gomes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ExemploExplorando\\obj\\",
+        "projectPath": "/home/joao/Repositórios/BootCamp---DIO/ExemploExplorando/ExemploExplorando.csproj",
+        "packagesPath": "/home/joao/.nuget/packages/",
+        "outputPath": "/home/joao/Repositórios/BootCamp---DIO/ExemploExplorando/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\joao.gomes\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/joao/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://10.150.235.175:43675/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
