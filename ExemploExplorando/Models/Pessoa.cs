@@ -30,7 +30,7 @@ namespace ExemploExplorando.Models
         }
         
 
-        public string? Nome
+        public string Nome
         { 
             get => _nome; //CONVERTENDO PARA BODY EXPRESSIONS
             
@@ -59,7 +59,7 @@ namespace ExemploExplorando.Models
         }
 
 
-        public string? Sobrenome { get; set; }
+        public string Sobrenome { get; set; }
 
         public string NomeCompleto => $"{Nome} {Sobrenome}";
 
