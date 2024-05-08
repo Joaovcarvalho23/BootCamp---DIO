@@ -35,8 +35,40 @@ namespace ModuloApi.Controllers
             var contato = _context.MeusContatos.Find(id);
 
             if (contato == null) return NotFound();
-            
+
             return Ok(contato);
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Atualizar(int id, Contato contato)
+        {
+            var contatoDoBanco = _context.MeusContatos.Find(id);
+
+            if(contatoDoBanco == null) return NotFound();
+
+            contatoDoBanco.Nome = contato.Nome;
+            contatoDoBanco.Telefone = contato.Telefone;
+            contatoDoBanco.Ativo = contato.Ativo;
+
+            _context.MeusContatos.Update(contatoDoBanco);
+            _context.SaveChanges();
+
+            return Ok(contatoDoBanco);
+        }
+
+
+        [HttpDelete("{id}")]
+        public IActionResult Deletar(int id)
+        {
+            var contatoASerExcluido = _context.MeusContatos.Find(id);
+
+            if(contatoASerExcluido == null) return NotFound();
+
+            _context.MeusContatos.Remove(contatoASerExcluido);
+            _context.SaveChanges();
+
+            //return Ok(contatoASerExcluido);
+            return NoContent();
         }
     }
 }
