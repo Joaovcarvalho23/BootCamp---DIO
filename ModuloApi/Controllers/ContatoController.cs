@@ -39,6 +39,16 @@ namespace ModuloApi.Controllers
             return Ok(contato);
         }
 
+
+        [HttpGet("BuscarContatoPorNome")]
+        public IActionResult BuscarPorNome(string nome)
+        {
+            var listaDeContatos = _context.MeusContatos.Where(x => x.Nome.Contains(nome));
+            return Ok(listaDeContatos);
+        }
+
+
+
         [HttpPut("{id}")]
         public IActionResult Atualizar(int id, Contato contato)
         {
@@ -55,6 +65,7 @@ namespace ModuloApi.Controllers
 
             return Ok(contatoDoBanco);
         }
+
 
 
         [HttpDelete("{id}")]
