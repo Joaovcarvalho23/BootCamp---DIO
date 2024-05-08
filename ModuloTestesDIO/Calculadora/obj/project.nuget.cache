@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "aLIbSEoir5CgTxizsvAgnRAx2PZa+ihC18KCzjG/F3ThMRrsbdC1nMCAbaBgNPbPBWp64XxSsNAaZRy3PU6u4g==",
+  "dgSpecHash": "zNz7V0ChRBQOyWI26025IFwvs+d5RqJDRvWjLeBe2TK0t1Rr3kpcfG52wO7/mj7fSVV5BkYt6xC/A+AZcPuaXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joaov\\Desktop\\BootCamp---DIO\\ModuloTestesDIO\\Calculadora\\Calculadora.csproj",
+  "projectFilePath": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ModuloTestesDIO\\Calculadora\\Calculadora.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Você está executando a operação 'restore' com uma fonte 'HTTP', 'http://10.150.235.175:43675/nuget'. O acesso não HTTPS será removido em uma versão futura. Considere migrar para uma fonte 'HTTPS'."
+    }
+  ]
 }

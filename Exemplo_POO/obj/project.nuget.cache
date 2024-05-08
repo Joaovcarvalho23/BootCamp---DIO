@@ -1,20 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "tLFi+OXbUAjPTQemynR7oDcSZKSmf9Md+7/jLmHQaGQMTaZKxG5siHJ0b4WTjBqn7v93hkSBo9qlkesm/iVUXw==",
+  "dgSpecHash": "44iAH0OLj8jT5xm3C8Pu7HdER6IQSuX29QUY5QYfXKJY6Z6XcsDmeN5SqYRV43TV8B0/OnBzBvptbTcRYOUOVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joao.gomes\\Desktop\\BootCamp---DIO\\Exemplo_POO\\Exemplo_POO.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\joao.gomes\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\joao.gomes\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\joao.gomes\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\joao.gomes\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\Exemplo_POO\\Exemplo_POO.csproj",
+  "expectedPackageFiles": [],
   "logs": [
     {
       "code": "NU1803",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://10.150.235.175:43675/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+      "message": "Você está executando a operação 'restore' com uma fonte 'HTTP', 'http://10.150.235.175:43675/nuget'. O acesso não HTTPS será removido em uma versão futura. Considere migrar para uma fonte 'HTTPS'."
     }
   ]
 }

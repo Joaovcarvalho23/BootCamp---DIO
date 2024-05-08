@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joao.gomes\\Desktop\\BootCamp---DIO\\PraticaPOODesafiosCodigo\\PraticaPOODesafiosCodigo.csproj": {}
+    "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\PraticaPOODesafiosCodigo\\PraticaPOODesafiosCodigo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joao.gomes\\Desktop\\BootCamp---DIO\\PraticaPOODesafiosCodigo\\PraticaPOODesafiosCodigo.csproj": {
+    "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\PraticaPOODesafiosCodigo\\PraticaPOODesafiosCodigo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joao.gomes\\Desktop\\BootCamp---DIO\\PraticaPOODesafiosCodigo\\PraticaPOODesafiosCodigo.csproj",
+        "projectUniqueName": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\PraticaPOODesafiosCodigo\\PraticaPOODesafiosCodigo.csproj",
         "projectName": "PraticaPOODesafiosCodigo",
-        "projectPath": "C:\\Users\\joao.gomes\\Desktop\\BootCamp---DIO\\PraticaPOODesafiosCodigo\\PraticaPOODesafiosCodigo.csproj",
+        "projectPath": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\PraticaPOODesafiosCodigo\\PraticaPOODesafiosCodigo.csproj",
         "packagesPath": "C:\\Users\\joao.gomes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joao.gomes\\Desktop\\BootCamp---DIO\\PraticaPOODesafiosCodigo\\obj\\",
+        "outputPath": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\PraticaPOODesafiosCodigo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joao.gomes\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "http://10.150.235.175:43675/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -35,6 +36,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -56,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

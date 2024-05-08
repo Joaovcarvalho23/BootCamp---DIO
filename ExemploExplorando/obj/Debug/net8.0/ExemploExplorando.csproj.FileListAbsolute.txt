@@ -1,0 +1,6 @@
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.csproj.AssemblyReference.cache
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.AssemblyInfoInputs.cache
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.AssemblyInfo.cs
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.csproj.CoreCompileInputs.cache
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.sourcelink.json
