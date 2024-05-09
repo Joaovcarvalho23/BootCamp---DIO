@@ -25,7 +25,7 @@ namespace ModuloApi.Controllers
         {
             _context.Add(contato);
             _context.SaveChanges();
-            return Ok(contato);
+            return CreatedAtAction(nameof(BuscarPorId), new { id = contato.Id }, contato);
         }
 
 
