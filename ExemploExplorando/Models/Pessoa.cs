@@ -59,7 +59,7 @@ namespace ExemploExplorando.Models
         }
 
 
-        public string Sobrenome { get; set; } //bla
+        public string Sobrenome { get; set; }
 
         public string NomeCompleto => $"{Nome} {Sobrenome}";
 
