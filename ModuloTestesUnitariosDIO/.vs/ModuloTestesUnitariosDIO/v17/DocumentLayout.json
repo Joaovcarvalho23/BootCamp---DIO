@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ModuloTestesUnitariosDIO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5DC6101-00BB-4AFA-843A-87A56BBA989B}|testes\\tarefas.api.testes\\tarefas.api.testes.csproj|c:\\users\\joao.gomes\\source\\repos\\bootcamp---dio\\modulotestesunitariosdio\\testes\\tarefas.api.testes\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5DC6101-00BB-4AFA-843A-87A56BBA989B}|testes\\tarefas.api.testes\\tarefas.api.testes.csproj|solutionrelative:testes\\tarefas.api.testes\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9406F4F9-978D-4221-8A08-80830F715C86}|TarefasAPI\\TrilhaApiDesafio.csproj|c:\\users\\joao.gomes\\source\\repos\\bootcamp---dio\\modulotestesunitariosdio\\tarefasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9406F4F9-978D-4221-8A08-80830F715C86}|TarefasAPI\\TrilhaApiDesafio.csproj|solutionrelative:tarefasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5DC6101-00BB-4AFA-843A-87A56BBA989B}|testes\\tarefas.api.testes\\tarefas.api.testes.csproj|c:\\users\\joao.gomes\\source\\repos\\bootcamp---dio\\modulotestesunitariosdio\\testes\\tarefas.api.testes\\integrations\\controllers\\tarefacontrollertestes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5DC6101-00BB-4AFA-843A-87A56BBA989B}|testes\\tarefas.api.testes\\tarefas.api.testes.csproj|solutionrelative:testes\\tarefas.api.testes\\integrations\\controllers\\tarefacontrollertestes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9406F4F9-978D-4221-8A08-80830F715C86}|TarefasAPI\\TrilhaApiDesafio.csproj|c:\\users\\joao.gomes\\source\\repos\\bootcamp---dio\\modulotestesunitariosdio\\tarefasapi\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9406F4F9-978D-4221-8A08-80830F715C86}|TarefasAPI\\TrilhaApiDesafio.csproj|solutionrelative:tarefasapi\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9406F4F9-978D-4221-8A08-80830F715C86}|TarefasAPI\\TrilhaApiDesafio.csproj|c:\\users\\joao.gomes\\source\\repos\\bootcamp---dio\\modulotestesunitariosdio\\tarefasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9406F4F9-978D-4221-8A08-80830F715C86}|TarefasAPI\\TrilhaApiDesafio.csproj|solutionrelative:tarefasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9406F4F9-978D-4221-8A08-80830F715C86}|TarefasAPI\\TrilhaApiDesafio.csproj|c:\\users\\joao.gomes\\source\\repos\\bootcamp---dio\\modulotestesunitariosdio\\tarefasapi\\models\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,19 +71,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ModuloTestesUnitariosDIO\\testes\\tarefas.api.testes\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "testes\\tarefas.api.testes\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ModuloTestesUnitariosDIO\\testes\\tarefas.api.testes\\UnitTest1.cs",
-              "RelativeToolTip": "testes\\tarefas.api.testes\\UnitTest1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
+              "Title": "TarefaControllerTestes.cs",
+              "DocumentMoniker": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ModuloTestesUnitariosDIO\\testes\\tarefas.api.testes\\Integrations\\Controllers\\TarefaControllerTestes.cs",
+              "RelativeDocumentMoniker": "testes\\tarefas.api.testes\\Integrations\\Controllers\\TarefaControllerTestes.cs",
+              "ToolTip": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ModuloTestesUnitariosDIO\\testes\\tarefas.api.testes\\Integrations\\Controllers\\TarefaControllerTestes.cs",
+              "RelativeToolTip": "testes\\tarefas.api.testes\\Integrations\\Controllers\\TarefaControllerTestes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T14:18:07.595Z",
+              "WhenOpened": "2024-05-10T14:30:23.785Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ModuloTestesUnitariosDIO\\TarefasAPI\\Program.cs",
               "RelativeDocumentMoniker": "TarefasAPI\\Program.cs",
@@ -120,15 +120,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "TarefaController.cs",
               "DocumentMoniker": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ModuloTestesUnitariosDIO\\TarefasAPI\\Controllers\\TarefaController.cs",
               "RelativeDocumentMoniker": "TarefasAPI\\Controllers\\TarefaController.cs",
               "ToolTip": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ModuloTestesUnitariosDIO\\TarefasAPI\\Controllers\\TarefaController.cs",
               "RelativeToolTip": "TarefasAPI\\Controllers\\TarefaController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwB0AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T13:55:18.411Z"
+              "WhenOpened": "2024-05-10T13:55:18.411Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
