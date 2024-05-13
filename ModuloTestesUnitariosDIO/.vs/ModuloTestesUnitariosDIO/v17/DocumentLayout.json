@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,6 +69,10 @@
               "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TarefaControllerTestes.cs",
@@ -76,7 +80,7 @@
               "RelativeDocumentMoniker": "testes\\tarefas.api.testes\\Integrations\\Controllers\\TarefaControllerTestes.cs",
               "ToolTip": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\ModuloTestesUnitariosDIO\\testes\\tarefas.api.testes\\Integrations\\Controllers\\TarefaControllerTestes.cs",
               "RelativeToolTip": "testes\\tarefas.api.testes\\Integrations\\Controllers\\TarefaControllerTestes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-10T14:30:23.785Z",
               "EditorCaption": ""
@@ -91,8 +95,7 @@
               "RelativeToolTip": "TarefasAPI\\Program.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAowB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T13:57:01.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T13:57:01.051Z"
             },
             {
               "$type": "Document",
@@ -128,8 +131,7 @@
               "RelativeToolTip": "TarefasAPI\\Controllers\\TarefaController.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAgwB0AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T13:55:18.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T13:55:18.411Z"
             },
             {
               "$type": "Document",
@@ -142,10 +144,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-10T13:53:58.831Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

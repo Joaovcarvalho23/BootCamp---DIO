@@ -1,0 +1,15 @@
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\NovosTalentos\NovosTalentos\bin\Debug\net8.0\NovosTalentos.exe
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\NovosTalentos\NovosTalentos\bin\Debug\net8.0\NovosTalentos.deps.json
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\NovosTalentos\NovosTalentos\bin\Debug\net8.0\NovosTalentos.runtimeconfig.json
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\NovosTalentos\NovosTalentos\bin\Debug\net8.0\NovosTalentos.dll
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\NovosTalentos\NovosTalentos\bin\Debug\net8.0\NovosTalentos.pdb
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\NovosTalentos\NovosTalentos\obj\Debug\net8.0\NovosTalentos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\NovosTalentos\NovosTalentos\obj\Debug\net8.0\NovosTalentos.AssemblyInfoInputs.cache
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\NovosTalentos\NovosTalentos\obj\Debug\net8.0\NovosTalentos.AssemblyInfo.cs
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\NovosTalentos\NovosTalentos\obj\Debug\net8.0\NovosTalentos.csproj.CoreCompileInputs.cache
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\NovosTalentos\NovosTalentos\obj\Debug\net8.0\NovosTalentos.sourcelink.json
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\NovosTalentos\NovosTalentos\obj\Debug\net8.0\NovosTalentos.dll
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\NovosTalentos\NovosTalentos\obj\Debug\net8.0\refint\NovosTalentos.dll
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\NovosTalentos\NovosTalentos\obj\Debug\net8.0\NovosTalentos.pdb
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\NovosTalentos\NovosTalentos\obj\Debug\net8.0\NovosTalentos.genruntimeconfig.cache
+C:\Users\joao.gomes\Source\Repos\BootCamp---DIO\NovosTalentos\NovosTalentos\obj\Debug\net8.0\ref\NovosTalentos.dll

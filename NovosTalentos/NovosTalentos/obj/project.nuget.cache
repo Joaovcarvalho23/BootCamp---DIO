@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ij5Vq0p+p8Hoq+uSfzpDXiroYcN6cE4ypFQhKGAPLMMsFV/5RyRm8oidDWr94yb+iQsauzq2ePN5zTDIZWCk0Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\joao.gomes\\Source\\Repos\\BootCamp---DIO\\NovosTalentos\\NovosTalentos\\NovosTalentos.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Você está executando a operação 'restore' com uma fonte 'HTTP', 'http://10.150.235.175:43675/nuget'. O acesso não HTTPS será removido em uma versão futura. Considere migrar para uma fonte 'HTTPS'."
+    }
+  ]
+}
